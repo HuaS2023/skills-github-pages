@@ -60,15 +60,12 @@
   display: none;
 }
 
-button.vfrc-button {
-   background-color:"red";
- }
 
 .vfrc-timestamp{
     display:none;
 }
 
 
-.vfrc-button {
+.vf-footer.vfrc-button {
     display:none;
 }
