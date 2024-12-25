@@ -60,7 +60,7 @@
   display: none;
 }
 
- .vfrc-button .vfrc-button--primary {
+.vfrc-button.vfrc-button--primary {
    background-color:"red";
  }
 
