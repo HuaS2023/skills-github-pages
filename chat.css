@@ -69,7 +69,6 @@ button.vfrc-button {
 }
 
 
-.vfrc-input input[type="text"],
-.vfrc-input textarea {
-   content:"dfoadf222";
+.vfrc-chat-input--button {
+    display:none;
 }
