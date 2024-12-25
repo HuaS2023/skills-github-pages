@@ -64,6 +64,10 @@ button.vfrc-button {
    background-color:"red";
  }
 
+.vfrc-timestamp{
+    display:none;
+}
+
 .vfrc-input input[type="text"]::placeholder {
             content: '输入信息';
           }
