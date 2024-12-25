@@ -67,17 +67,12 @@
 .vfrc-button--primary {
     position: relative; /* Ensure proper positioning for ::after content */
     text-align: center !important; /* Center text within the footer */
-    color: #999; /* Adjust color as needed */
     visibility: hidden; /* Hide the original text */
 }
 .vfrc-button--primary::after {
-    content: "智悦AI"; /* Custom watermark text */
+    content: "开始会话"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
     color: inherit; /* Inherit color from parent */
 }
 
