@@ -1,51 +1,3 @@
-/* Set the chat widget to RTL */
-/* .vfrc-chat--dialog {
-    direction: rtl !important;
-    text-align: right !important;
-}
-.vfrc-message {
-    direction: rtl !important;
-    text-align: right !important;
-}
-.vfrc-user-response .vfrc-message {
-    direction: rtl !important;
-    text-align: right !important;
-}
-.vfrc-input input[type="text"],
-.vfrc-input textarea {
-    direction: rtl !important;
-    text-align: right !important;
-} */
-
-/* Ensure text box is RTL */
-/* .vfrc-chat-input textarea {
-    direction: rtl !important;
-    text-align: right !important;
-}
- */
-
-
-/* Customize watermark in the footer */
-.vfrc-footer--watermark {
-    position: relative; /* Ensure proper positioning for ::after content */
-    text-align: center !important; /* Center text within the footer */
-    font-size: 12px;
-    color: #999; /* Adjust color as needed */
-    visibility: hidden; /* Hide the original text */
-}
-.vfrc-footer--watermark::after {
-    content: "智悦AI"; /* Custom watermark text */
-    visibility: visible; /* Make the new text visible */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    color: inherit; /* Inherit color from parent */
-}
-
-
-/* header */
 
 .vfrc-header {
   display: none;
@@ -60,9 +12,6 @@
     overflow:hidden;
 }
 
-/* .vfrc-button--primary{
-    display:none;
-} */
 
 .vfrc-button--primary {
     position: relative; /* Ensure proper positioning for ::after content */
