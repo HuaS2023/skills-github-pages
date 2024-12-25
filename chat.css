@@ -60,17 +60,17 @@
     overflow:hidden;
 }
 
-.vfrc-button--primary{
+/* .vfrc-button--primary{
     display:none;
-}
+} */
 
-.vf-footer.vfrc-button {
+.vfrc-button--primary {
     position: relative; /* Ensure proper positioning for ::after content */
     text-align: center !important; /* Center text within the footer */
     color: #999; /* Adjust color as needed */
     visibility: hidden; /* Hide the original text */
 }
-.vf-footer.vfrc-button::after {
+.vfrc-button--primary::after {
     content: "智悦AI"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
