@@ -69,3 +69,7 @@
 .vf-footer.vfrc-button {
     display:none;
 }
+
+.vfrc-chat--dialog{
+    overflow:hidden;
+}
