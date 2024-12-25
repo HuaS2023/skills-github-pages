@@ -53,3 +53,13 @@
 .vfrc-footer--watermark a {
     display: none !important; /* Hide the Voiceflow link */
 }
+
+/* header */
+
+.vfrc-header {
+  display: none;
+}
+
+
+
+
