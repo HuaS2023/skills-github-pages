@@ -16,13 +16,13 @@
 .vfrc-button--primary {
     position: relative; /* Ensure proper positioning for ::after content */
     text-align: center !important; /* Center text within the footer */
-    color:"transparent";
+    color:transparent;
 }
 .vfrc-button--primary::after {
     content: "开始会话"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
-    color: "white"; /* Inherit color from parent */
+    color: white; /* Inherit color from parent */
 }
 
 
