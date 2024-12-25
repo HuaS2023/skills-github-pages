@@ -68,6 +68,8 @@ button.vfrc-button {
     display:none;
 }
 
-.vfrc-input input[type="text"]::placeholder {
-            content: '输入信息';
-          }
+
+.vfrc-input input[type="text"],
+.vfrc-input textarea {
+   content:"dfoadf222";
+}
