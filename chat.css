@@ -44,15 +44,6 @@
     color: inherit; /* Inherit color from parent */
 }
 
-/* Hide session time */
-.vfrc-chat--session-time {
-    display: none !important; /* Hide the session time element */
-}
-
-/* Hide the Voiceflow link completely */
-.vfrc-footer--watermark a {
-    display: none !important; /* Hide the Voiceflow link */
-}
 
 /* header */
 
@@ -65,11 +56,17 @@
     display:none;
 }
 
+.vfrc-chat--dialog{
+    overflow:hidden;
+}
+
+button.vfrc-button--primary.c-bXTvXv-lckiv-type-info{
+    display:none;
+}
 
 .vf-footer.vfrc-button {
     display:none;
 }
 
-.vfrc-chat--dialog{
-    overflow:hidden;
-}
+
+
