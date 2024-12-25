@@ -64,4 +64,6 @@ button.vfrc-button {
    background-color:"red";
  }
 
-
+.vfrc-input input[type="text"]::placeholder {
+            content: '输入信息';
+          }
