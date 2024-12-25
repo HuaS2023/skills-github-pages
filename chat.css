@@ -37,7 +37,7 @@
     content: "智悦AI"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 0;
     right: 0;
     margin: auto;
