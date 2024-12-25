@@ -37,10 +37,10 @@
     content: "智悦AI"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: 10px;
     color: inherit; /* Inherit color from parent */
 }
 
@@ -60,7 +60,7 @@
   display: none;
 }
 
-.vfrc-button.vfrc-button--primary {
+.vfrc-button--primary {
    background-color:"red";
  }
 
