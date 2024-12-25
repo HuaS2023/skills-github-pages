@@ -1,5 +1,5 @@
 /* Set the chat widget to RTL */
-.vfrc-chat--dialog {
+/* .vfrc-chat--dialog {
     direction: rtl !important;
     text-align: right !important;
 }
@@ -15,13 +15,15 @@
 .vfrc-input textarea {
     direction: rtl !important;
     text-align: right !important;
-}
+} */
 
 /* Ensure text box is RTL */
-.vfrc-chat-input textarea {
+/* .vfrc-chat-input textarea {
     direction: rtl !important;
     text-align: right !important;
 }
+ */
+
 
 /* Customize watermark in the footer */
 .vfrc-footer--watermark {
@@ -32,7 +34,7 @@
     visibility: hidden; /* Hide the original text */
 }
 .vfrc-footer--watermark::after {
-    content: "Assistant ⚡️ by Talomri AI"; /* Custom watermark text */
+    content: "智悦AI"; /* Custom watermark text */
     visibility: visible; /* Make the new text visible */
     position: absolute;
     top: 0;
